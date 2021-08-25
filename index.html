@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <title>Is your Birthday is lucky?</title>
+</head>
+
+<body>
+    <div class="description">Enter Your Birthdate and lucky number to continue...</div>
+
+    <div class="dob-div">
+        <label for="dob">Select your Birth date 🎂:</label>
+        <input type="date" id="dob" />
+    </div>
+
+    <div class="luckyno-div">
+        <label for="lucky-no">Enter your Lucky Number:</label>
+        <input type="number" id="lucky-no" />
+    </div>
+
+    <div>
+        <button class="btn" id="check-btn">Check</button>
+        <input class="btn" id="reset-btn" type="reset" value="Reset">
+    </div>
+
+    <p id="message"></p>
+
+    <img class="gify" id="unlucky-gif" src="https://media.giphy.com/media/oxuSc2RcEyQ48/giphy.gif" alt="unlucy-gif">
+
+    <img class="gify" id="lucky-gif" src="https://media.giphy.com/media/9Y6n9TR7U07ew/giphy.gif" alt="lucky-gif">
+
+    <footer class="footer">
+        <p>Made by Shubham H</p>
+    </footer>
+</body>
+<script src="/app.js"></script>
+
+</html>

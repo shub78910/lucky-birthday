@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+:root {
+    --primary-dark: black;
+    --primary-orange: #ec8103;
+    --primary-blue: #337bd2;
+
+}
+
+body {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    background-color: var(--primary-dark);
+    color: #FFFFFF;
+}
+
+.privacy {
+    display: inline-block;
+    padding: 0.6rem;
+    margin: 1rem;
+    color: #FF0000;
+    border: 2px solid #FF0000;
+    box-shadow: 2px 2px 2px #FF0000;
+}
+
+.description {
+    margin: 1rem;
+}
+
+.dob-div {
+    margin: 1rem;
+}
+
+.btn {
+    display: inline;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--primary-blue);
+    color: #FFFFFF;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+#message {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+.gify {
+    width: 300px;
+    border-radius: 1rem;
+    margin-bottom: 8rem;
+}
+
+.list-item-inline {
+    display: inline-block;
+}
+
+.footer {
+    background-color: var(--primary-blue);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.footer i {
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 1rem;
+}
